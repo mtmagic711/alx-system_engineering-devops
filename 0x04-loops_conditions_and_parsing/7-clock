@@ -8,7 +8,7 @@ while [ $h -le 12 ]
 do
 	if [ $min -eq 1 ]
 	then
-		echo "Hour : $h"
+		echo "Hour: $h"
 	fi
 	echo "$min"
 	((min += 1))
